@@ -1,3 +1,10 @@
-body {
-    background-color: red!important;
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
 }
